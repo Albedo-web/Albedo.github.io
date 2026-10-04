@@ -3,10 +3,10 @@
 // Keep the commas and brackets exactly where they are.
 
 window.SITE = {
-  name:  "Your Name",
+  name:  "Pranav Mali",
   role:  "3D Generalist",          // big hero line 1 (3D comes first)
   role2: "& Motion Designer",      // big hero line 2
-  about: "I model, sculpt, light, render and animate. I also design motion graphics.",
+  about: ""Versatile 3D Generalist with a passion for creating cinematic visuals. Skilled in modeling, texturing, animation, and rendering, with expertise in industry-standard tools such as Maya, Blender, Substance Painter, Arnold, Unreal Engine. I specialize in crafting high-quality assets and animations for film, games, and digital media, combining technical precision with artistic creativity. Open to collaborations and always striving to push creative boundaries. Let’s bring ideas to life!"",
 
   accent: "#2b35ff",               // main color: 3D object + motion section. Try #ff4d2e or #00a676
 
@@ -17,9 +17,9 @@ window.SITE = {
   skills3d:     "Modelling, sculpting, lighting, rendering and animation.",
   skillsMotion: "Motion graphics, typography and compositing.",
 
-  email: "you@email.com",
+  email: "malipranav766@gmail.com",
   links: [
-    { label: "ArtStation", url: "https://www.artstation.com/" },
+    { label: "ArtStation", url: "pranav2103.artstation.com" },
     { label: "Instagram",  url: "https://www.instagram.com/" },
     { label: "Behance",    url: "https://www.behance.net/" }
   ],
