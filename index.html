@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Everything you read here is filled in from content.js. Edit that file, not this one. -->
+<canvas id="gl"></canvas>
+<nav><b id="logo"></b><a href="#contact">Contact</a></nav>
+
+<section class="hero">
+  <h1><span id="role"></span><span id="role2"></span></h1>
+  <p class="lead" id="about"></p>
+  <p class="cue">Scroll</p>
+</section>
+
+<section class="work">
+  <h2>3D work</h2><p class="skills" id="sk3d"></p>
+  <div class="grid" data-type="3d"></div>
+</section>
+
+<section class="motion">
+  <div class="pin">
+    <div class="shape"></div>
+    <h2 class="big"><span>Now</span><span>in</span><span>motion</span></h2>
+  </div>
+</section>
+
+<section class="work">
+  <h2>Motion work</h2><p class="skills" id="skmo"></p>
+  <div class="grid" data-type="motion"></div>
+</section>
+
+<footer id="contact">
+  <h2>Let's work together</h2>
+  <a id="mail"></a>
+  <p id="links"></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
